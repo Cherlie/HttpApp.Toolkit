@@ -3,7 +3,9 @@
 
 ##1.HttpApp.Toolkit\AppHelpers
  -BackgroundTaskHelper 注册BackgroundTasks dll库时候，可能会用到的初始化帮助类
+
  -DownloadImage 后台下载图片
+
  -UIHelper 隐藏WP8.1系统状态栏
 
 ##2.HttpApp.Toolkit\Behaviors
@@ -41,9 +43,11 @@ eg:
 -ServiceBase 提供get和post两种请求方式，直接转换为实体类，需要json.net引用
 
 ##4.HttpApp.Toolkit\DataSource
+
 -DataSourceBase增量加载基础类
+
 使用方法：继承DataSourceBase<T>类；重写父类LoadItemsAsync()方法用于获取数据，重写AddItems(IList<T> items)方法用于判断数据是否重复，不重复
-	则可添加到集合中
+则可添加到集合中
 
 ##5.HttpApp.Toolkit\TileHelper
 -TileCreator 创建自定义磁贴帮助类
@@ -86,10 +90,15 @@ private void TileLoaded()
 
 ##7.HttpApp.Toolkit\Utilitys
 -CheckPixel 判断分辨率是否是1080p
+
 -DeviceInfo 获取wp8.1唯一标识
+
 -Notifications 本地通知
+
 -ObservableDictionary 属性改变通知字典，这个都知道
+
 -TimestampUtils 时间戳和系统时间之间转换
+
 -Util 一些验证
 
 
